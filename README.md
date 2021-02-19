@@ -13,7 +13,7 @@ Libs Utilizadas:
 - Cucumber
 - Linguagem Javascript
 
-# 🚀 <h3> Cursos utilizados para estudo gratuito: </h3>
+# <h3> 🚀 Cursos utilizados para estudo gratuito: </h3>
 
 
 Mocha: https://testautomationu.applitools.com/mocha-javascript-tests/
@@ -47,6 +47,5 @@ Agile Testing Condensed:  https://leanpub.com/agiletesting-condensed-brazilian-p
 
 
 
-# <h3>Como rodar o projeto</h3> 👈
-
+# <h3>Como rodar o projeto 👈</h3> 
 npx jest

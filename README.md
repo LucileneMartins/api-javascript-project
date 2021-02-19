@@ -1,5 +1,8 @@
 # Api-javascript-project
-Projeto de testes de api em javascript utiizando libs que apoiam no dia a dia de trabalho
+
+Hello 👋🏻
+
+Projeto de testes de api em javascript utiizando libs que apoiam no dia a dia de trabalho ❤️
 
 Libs Utilizadas:
 

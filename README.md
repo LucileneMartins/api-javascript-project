@@ -51,4 +51,4 @@ $ npx jest -t name-of-spec </br>
 
 ## Estudos 
 
-link - [estudos](http://exemplo.com/)
+link - [estudos](https://github.com/LucileneMartins/api-javascript-project/blob/main/MaterialEstudos)

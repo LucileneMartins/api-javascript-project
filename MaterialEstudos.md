@@ -14,6 +14,10 @@ Javascript básico : https://testautomationu.applitools.com/javascript-tutorial/
 
 Jest : https://jestjs.io/docs/pt-BR/getting-started.html
 
+# <h3> 🚀 Jest Reporter </h3>
+
+Jest-html-reporter : https://www.npmjs.com/package/jest-html-reporters
+
 
 # <h3> 🚀 Alguns cursos sobre abordagens e estratégias de testes :</h3>
 

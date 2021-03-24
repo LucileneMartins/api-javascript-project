@@ -12,6 +12,7 @@ Libs Utilizadas:
 - Body-Parser
 - Cucumber
 - Linguagem Javascript
+- Jest-html-reporter (https://www.npmjs.com/package/jest-html-reporters)
 
 
 ## 🎯 Pré-Requisitos

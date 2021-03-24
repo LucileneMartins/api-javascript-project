@@ -13,39 +13,41 @@ Libs Utilizadas:
 - Cucumber
 - Linguagem Javascript
 
-# <h3> 🚀 Cursos utilizados para estudo gratuito: </h3>
 
+## 🎯 Pré-Requisitos
 
-Mocha: https://testautomationu.applitools.com/mocha-javascript-tests/
+<b>Node Instalado </b></br> 
+verificar com o comando node -v </br>
 
-Chai: https://testautomationu.applitools.com/chai-test-assertions/
+<b>NPM instalado </b></br>
+verificar com o comando npm -v  </br>
 
-Cucumber : https://testautomationu.applitools.com/cucumber-javascript-tutorial/
+<b>Clonar o projeto</b></br>
 
-Javascript básico : https://testautomationu.applitools.com/javascript-tutorial/
-
-# <h3> 🚀 Documentação para estudo </h3>
-
-Jest : https://jestjs.io/docs/pt-BR/getting-started.html
-
-
-# <h3> 🚀 Alguns cursos sobre abordagens e estratégias de testes :</h3>
-
-
-Um pouco sobre com oaplicar e ter sucesso nos testes automatizados:
-https://testautomationu.applitools.com/setting-a-foundation-for-successful-test-automation/
-
-Abordagens para serem utilizadas em todo time ao falar em testes :
-https://testautomationu.applitools.com/the-whole-team-approach-to-continuous-testing/
-
-# <h3>🚀 Livros : </h3>
-
-
-Agile Testing : https://www.amazon.com.br/dp/B001QL5N4K/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
-
-Agile Testing Condensed:  https://leanpub.com/agiletesting-condensed-brazilian-portuguese-edition?utm_medium=social&utm_source=agiletesters.com.br&utm_campaign=agiletesters.com.br
+<b>Instalar as dependências do package.json </b> </br>
+ $ npm install</br>
+ 
+ Done ✔️
 
 
 
-# <h3>Como rodar o projeto 👈</h3> 
-npx jest
+## 💡 Uso
+
+<b>Como Rodar os testes: </b></br>
+
+<b>Rodar todos os testes</b></br>
+$ npm test</br>
+
+<b>Rodar teste com geração de report </b></br> 
+$ npm run test:report </br>
+
+<b>Rodar teste com coverage </b></br> 
+$ npm run test:coverage </br>
+
+<b>Rodar um teste especifico</b></br> 
+$ npx jest -t name-of-spec </br>
+
+
+## Estudos 
+
+link - [estudos](http://exemplo.com/)

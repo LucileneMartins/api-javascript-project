@@ -1,18 +1,15 @@
-const response = require('../response');
+import api_env from './api_env';
 
-const CONFIG_HEADER = {
+const configHead = {
     'ContentType' : 'application/json',
     'Accept' : 'version=1'
 
 }
 
-const  CONFIG_HEADER_TOKEN =  {
-    'Authorization': 'Token token='+response.getToken()            
- }
-
+const configHeadToken = {'Authorization': 'Token token=' +  api_env.token}
 
  
  export{
-    CONFIG_HEADER,
-    CONFIG_HEADER_TOKEN
+    configHead,
+    configHeadToken
 }

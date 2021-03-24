@@ -1,4 +1,3 @@
-const response = require('../helper/response')
 
 let loginpass = {   
     'user': {        

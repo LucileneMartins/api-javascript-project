@@ -1,11 +1,17 @@
 
-import * as apimanager from '../../support/pageObject/apiManager';
+import * as request from '../../helper/request';
+import * as endpoint from '../../helper/endpoint';
+import api_env from '../../helper/api_env';
+import statusCode from '../../helper/statuscode';
 
   describe('Request login api ', ()=>{
-    it('login', function (done){    
-        apimanager.Login("https://run.mocky.io","/v3/734e3479-b9e9-4f10-a53b-e9f3827e7a2e","")
-        done();
-    })
+    it('Login', async () => {     
+
+      const response = await request.logg(endpoint.mock,endpoint.mockBody);              
+      expect(response.statusCode).toBe(statusCode.StatusCodeOK);      
+      api_env.token = response.body.authentication_token;    
+      console.log(response.body.authentication_token)
+    })  
 
 })
 

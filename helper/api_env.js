@@ -1,5 +1,6 @@
 
-  class Response {
+  class API_ENV {
+    
     constructor() {
       this.data = {};
     }
@@ -13,6 +14,6 @@
     }
   }
   
-  const response = new Response();
+  const api_env = new API_ENV();
   
-  export default response;
+  export default api_env;

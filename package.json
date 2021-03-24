@@ -10,8 +10,9 @@
         ]
     },
     "scripts": {
-        "test": "jest -i test/*.js -t",
-        "test:reporter": "jest -i test/*.js -t --reporters='default'"
+         "test": "jest -i test/*.js -t",
+        "test:report": "jest -i test/*.js -t --reporters='default' --reporters='jest-html-reporters'",
+        "test:coverage": "jest -i test/*.js -t --coverage"
     },
     "devDependencies": {
         "@babel/preset-env": "^7.9.6",

@@ -34,8 +34,6 @@ verificar com o comando npm -v  </br>
 
 ## 💡 Uso
 
-<b>Como Rodar os testes: </b></br>
-
 <b>Rodar todos os testes</b></br>
 $ npm test</br>
 
@@ -49,6 +47,6 @@ $ npm run test:coverage </br>
 $ npx jest -t name-of-spec </br>
 
 
-## Estudos 
+## 🎓 Estudos 
 
 link - [estudos](https://github.com/LucileneMartins/api-javascript-project/blob/main/MaterialEstudos.md)

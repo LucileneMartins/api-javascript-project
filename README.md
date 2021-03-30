@@ -10,7 +10,6 @@ Libs Utilizadas:
 - Supertest
 - Express
 - Body-Parser
-- Cucumber
 - Linguagem Javascript
 - Jest-html-reporter
 

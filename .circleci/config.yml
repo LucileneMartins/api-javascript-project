@@ -11,9 +11,14 @@ jobs:
           command: |
             sudo npm install -g
       - run:
-          name: Run Unit Tests
+          name: Run Tests
           command: |
-            ./node_modules/mocha/bin/mocha test/ --reporter mochawesome --reporter-options reportDir=test-results,reportFilename=test-results
+            ./node_modules/jest/bin/jest -i test/*.js -t --reporters='default' --reporters='jest-html-reporters'
+          - store_test_results:
+            path: ./reports/jest/
+          - store_artifacts:
+            path: ./reports/jest  
+
 workflows:
   build_test:
     jobs:

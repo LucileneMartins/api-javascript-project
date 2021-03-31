@@ -10,9 +10,10 @@ jobs:
           name: Install npm dependencies
           command: |
             sudo npm install -g
-       - run:
+      - run:
           name: Install Jest Reporter
-          command: npm install jest-html-reporters
+          command: |
+            npm install jest-html-reporters
       - run:
           name: Run Tests
           command: |

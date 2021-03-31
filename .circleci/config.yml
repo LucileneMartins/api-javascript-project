@@ -21,6 +21,8 @@ jobs:
               sudo npm test --ci --runInBand --reporters=jest-html-reporters --include ~/test-results/reporter
       - store_artifacts:
           path: ~/test-results/reporter
+      - store_test_results:
+          path: ./test-results
  
 
 workflows:

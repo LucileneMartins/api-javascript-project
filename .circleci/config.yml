@@ -12,7 +12,7 @@ jobs:
             sudo npm install -g
        - run:
           name: Install Jest Reporter
-          command: npm install jest-html-reporters --save-dev
+          command: npm install jest-html-reporters
       - run:
           name: Run Tests
           command: |

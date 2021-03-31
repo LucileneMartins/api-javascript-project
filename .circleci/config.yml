@@ -21,9 +21,9 @@ jobs:
           environment:
               JEST_HTML_REPORTER_OUTPUT_PATH: ~/report/
       - store_artifacts:
-          path: ~/report/report.html
+          path: ~/report/
       - store_test_results:
-          path: ~/report/report.html
+          path: ~/report/
  
 
 workflows:

@@ -19,7 +19,7 @@ jobs:
           command: |
               mkdir -p ~/test-results/reporter
               sudo npm test --ci --runInBand --reporters=jest-html-reporters
-       - store_artifacts:
+      - store_artifacts:
           path: ~/test-results/reporter
  
 

@@ -17,7 +17,7 @@ jobs:
           name: Run Tests
           command: |
               mkdir -p ~/test-results/reporter
-              npm test --ci --reporters='jest-html-reporters'
+              npm test --ci --reporters=jest-html-reporters
  
 
 workflows:

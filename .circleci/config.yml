@@ -18,7 +18,9 @@ jobs:
           name: Run Tests
           command: |
               mkdir -p ~/test-results
-              sudo npm test --ci --runInBand --reporters=jest-html-reporters --outputPath=~/test-results/ --pageTitle=Test_Report_API
+              sudo npm test --ci --runInBand --reporters=jest-html-reporters --pageTitle=Test_Report_API
+          environment:
+              JEST_HTML_REPORTER_OUTPUT_PATH: ~/test-results/
       - store_artifacts:
           path: ~/test-results/
       - store_test_results:

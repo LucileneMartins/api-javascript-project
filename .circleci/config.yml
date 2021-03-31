@@ -16,15 +16,14 @@ jobs:
             sudo npm install jest-html-reporters
       - run:
           name: Run Tests
-          command: |
-              mkdir -p ~/test-results
-              sudo npm test --ci --runInBand --reporters=jest-html-reporters --pageTitle=Test_Report_API
+          command: |              
+              sudo npm test --ci --runInBand 
           environment:
-              JEST_HTML_REPORTER_OUTPUT_PATH: ~/test-results/
+              JEST_HTML_REPORTER_OUTPUT_PATH: ~/report/
       - store_artifacts:
-          path: ~/test-results/Test_Report_API.html
+          path: ~/report/report.html
       - store_test_results:
-          path: ~/test-results/Test_Report_API.html
+          path: ~/report/report.html
  
 
 workflows:

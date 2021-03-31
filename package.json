@@ -11,9 +11,9 @@
             "html"
         ]
     },
+
     "scripts": {
-        "test": "jest -i test/*.js -t",
-        "test:report": "jest -i test/*.js -t --reporters='default' --reporters='jest-html-reporters'",
+        "test": "jest -i test/*.js -t",        
         "test:coverage": "jest -i test/*.js -t --coverage"
     },
     "devDependencies": {

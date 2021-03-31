@@ -14,10 +14,7 @@ jobs:
           name: Run Tests
           command: |
             ./node_modules/jest/bin/jest -i test/*.js -t --reporters='default' --reporters='jest-html-reporters'
-          - store_test_results:
-            path: ./reports/jest/
-          - store_artifacts:
-            path: ./reports/jest  
+ 
 
 workflows:
   build_test:

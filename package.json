@@ -1,4 +1,6 @@
 {
+    "name": "api-javascript-project",
+    "version": "1.0.0",
     "jest": {
         "testEnvironment": "node",
         "coveragePathIgnorePatterns": [

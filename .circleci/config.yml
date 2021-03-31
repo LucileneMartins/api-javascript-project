@@ -16,8 +16,12 @@ jobs:
       - run:
           name: Run Tests
           command: |
+<<<<<<< HEAD
               mkdir -p ~/test-results/reporter
               npm test --ci --reporters='jest-html-reporters'
+=======
+            jest --ci --runInBand --reporters=default --reporters='jest-html-reporters'
+>>>>>>> d8752a23bb7f7039a29725ebcd229986ca10f232
  
 
 workflows:

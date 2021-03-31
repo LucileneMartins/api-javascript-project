@@ -18,11 +18,11 @@ jobs:
           name: Run Tests
           command: |
               mkdir -p ~/test-results/reporter
-              sudo npm test --ci --runInBand --reporters=jest-html-reporters --include ~/test-results/reporter
+              sudo npm test --ci --runInBand --reporters=jest-html-reporters --outputPath=~/test-results/reporter --pageTitle=Test Report API
       - store_artifacts:
           path: ~/test-results/reporter
       - store_test_results:
-          path: ./test-results
+          path: ~/test-results/reporter
  
 
 workflows:

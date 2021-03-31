@@ -13,12 +13,12 @@ jobs:
       - run:
           name: Install Jest Reporter
           command: |
-            npm install jest-html-reporters
+            sudo npm install jest-html-reporters
       - run:
           name: Run Tests
           command: |
               mkdir -p ~/test-results/reporter
-              npm test --ci --reporters=jest-html-reporters
+              sudo npm test --ci --reporters=jest-html-reporters
  
 
 workflows:

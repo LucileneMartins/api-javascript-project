@@ -13,7 +13,7 @@ jobs:
       - run:
           name: Run Tests
           command: |
-            ./node_modules/jest/bin/jest -i test/*.js -t --reporters='default' --reporters='jest-html-reporters'
+            jest test/*.js --ci --runInBand --reporters=default --reporters='jest-html-reporters'
  
 
 workflows:

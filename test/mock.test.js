@@ -1,8 +1,8 @@
 
-import * as request from '../../helper/request';
-import * as endpoint from '../../helper/endpoint';
-import api_env from '../../helper/api_env';
-import statusCode from '../../helper/statuscode';
+import * as request from '../helper/request';
+import * as endpoint from '../helper/endpoint';
+import api_env from '../helper/api_env';
+import statusCode from '../helper/statuscode';
 
   describe('Request login api ', ()=>{
     it('Login', async () => {     

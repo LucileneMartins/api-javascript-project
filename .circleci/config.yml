@@ -10,10 +10,14 @@ jobs:
           name: Install npm dependencies
           command: |
             sudo npm install -g
+       - run:
+          name: Install Jest Reporter
+          command: npm install jest-html-reporters --save-dev
       - run:
           name: Run Tests
           command: |
-            jest test/*.js --ci --runInBand --reporters=default --reporters='jest-html-reporters'
+              mkdir -p ~/test-results/reporter
+              npm test --ci --reporters='jest-html-reporters'
  
 
 workflows:

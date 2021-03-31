@@ -57,6 +57,7 @@ typings/
 # report
 mochawesome-report/
 screenshots/
+.html
 
 ### OS & work environments
 
